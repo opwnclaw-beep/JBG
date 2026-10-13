@@ -865,6 +865,46 @@ h1, h2 {
   color: var(--c-dark);
 }
 
+.logo-variant__img {
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
+
+.clearspace-img {
+  width: 100%;
+  max-width: 220px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.dont-card__img {
+  width: 100%;
+  max-width: 120px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.nav__logo-img {
+  height: 30px;
+  width: auto;
+  max-width: 160px;
+  display: block;
+  object-fit: contain;
+}
+
+.footer__logo-img {
+  height: 28px;
+  width: auto;
+  max-width: 150px;
+  display: block;
+  object-fit: contain;
+}
+
 /* Clear Space */
 .logo-clearspace {
   margin-bottom: 3rem;
