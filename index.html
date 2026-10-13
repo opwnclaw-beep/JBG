@@ -60,6 +60,9 @@
     <div class="hero__grid"></div>
     <div class="hero__particles" id="heroParticles"></div>
     <div class="hero__content">
+      <div class="hero__emblem-wrap">
+        <img src="emblem_dark.svg" alt="Jarwix Emblem" class="hero__emblem-img" />
+      </div>
       <div class="hero__version">v2.0 — Ultimate Edition</div>
       <p class="hero__label">Brand Guidelines — 2026</p>
       <h1 class="hero__title">JARWIX</h1>
@@ -498,6 +501,28 @@
         <div class="logo-variant logo-variant--gradient">
           <img src="logo_for_orange_background.svg" alt="Jarwix logo on gradient backgrounds" class="logo-variant__img" />
           <span class="logo-variant__label">On gradient backgrounds</span>
+        </div>
+      </div>
+
+      <!-- Standalone Brand Mark / Emblem -->
+      <div class="emblem-showcase-block reveal" style="margin-bottom:3rem;">
+        <h3 class="colour-block__title">Standalone Brand Mark</h3>
+        <p style="color:var(--c-muted); font-size:0.95rem; margin-bottom:1.5rem; max-width:680px;">
+          When space is constrained below 100px width (social avatars, favicons, app icons, embroidery, merchandise), use the standalone Jarwix emblem mark without the wordmark.
+        </p>
+        <div class="emblem-showcase-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(220px, 1fr)); gap:1.5rem;">
+          <div class="logo-variant logo-variant--dark" style="padding:2.5rem 1.5rem;">
+            <img src="emblem_dark.svg" alt="Jarwix emblem on dark" style="width:72px; height:72px; object-fit:contain;" />
+            <span class="logo-variant__label">Emblem · Dark Surface</span>
+          </div>
+          <div class="logo-variant logo-variant--light" style="padding:2.5rem 1.5rem;">
+            <img src="emblem_white.svg" alt="Jarwix emblem on light" style="width:72px; height:72px; object-fit:contain;" />
+            <span class="logo-variant__label">Emblem · Light Surface</span>
+          </div>
+          <div class="logo-variant logo-variant--gradient" style="padding:2.5rem 1.5rem;">
+            <img src="emblem_orange.svg" alt="Jarwix emblem on gradient" style="width:72px; height:72px; object-fit:contain;" />
+            <span class="logo-variant__label">Emblem · Gradient Accent</span>
+          </div>
         </div>
       </div>
 
@@ -997,7 +1022,7 @@
             <div class="bizcard">
               <div class="bizcard__gradient"></div>
               <div class="bizcard__content">
-                <div class="bizcard__logo">J</div>
+                <img src="emblem_dark.svg" alt="Jarwix" class="bizcard__logo-img" style="width:32px; height:32px; object-fit:contain;" />
                 <div class="bizcard__info">
                   <span class="bizcard__name">JARWIX</span>
                   <span class="bizcard__tagline">Elevate with AI.</span>
@@ -1023,7 +1048,7 @@
         <div class="app-card reveal">
           <div class="app-card__preview app-card__preview--slide">
             <div class="slide-mock">
-              <div class="slide-mock__header">JARWIX</div>
+              <div class="slide-mock__header"><img src="logo_for_dark_background.svg.svg" alt="Jarwix" style="height:12px; width:auto;" /></div>
               <div class="slide-mock__title">GROWTH<br/>ENGINE</div>
               <div class="slide-mock__bar"></div>
             </div>
@@ -1033,8 +1058,11 @@
         </div>
         <div class="app-card reveal">
           <div class="app-card__preview app-card__preview--social">
-            <div class="social-mock">
+            <div class="social-mock" style="position:relative;">
               <div class="social-mock__bg"></div>
+              <div style="position:absolute; top:12px; left:14px; z-index:2;">
+                <img src="emblem_dark.svg" alt="Jarwix" style="width:16px; height:16px; object-fit:contain;" />
+              </div>
               <div class="social-mock__text">YOUR COMPETITORS<br/>ARE ALREADY USING AI.</div>
               <div class="social-mock__handle">@jarwix</div>
             </div>
@@ -1053,7 +1081,7 @@
                 <div class="website-url">jarwix.com</div>
               </div>
               <div class="website-mock__nav">
-                <div class="website-nav-logo">J</div>
+                <img src="emblem_dark.svg" alt="Jarwix" style="width:16px; height:16px; object-fit:contain;" />
                 <div class="website-nav-links">
                   <span></span><span></span><span></span>
                 </div>
@@ -1074,8 +1102,7 @@
             <div class="letterhead-mock">
               <div class="letterhead-mock__header">
                 <div class="letterhead-logo">
-                  <div class="letterhead-j">J</div>
-                  <span>JARWIX</span>
+                  <img src="logo_for_white_background.svg" alt="Jarwix" style="height:18px; width:auto;" />
                 </div>
                 <div class="letterhead-bar"></div>
               </div>
@@ -1102,8 +1129,7 @@
             <div class="merch-mock">
               <svg class="merch-tshirt" viewBox="0 0 120 110" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M10 25 L30 10 L42 20 C42 20 48 14 60 14 C72 14 78 20 78 20 L90 10 L110 25 L95 45 L85 35 L85 95 L35 95 L35 35 L25 45 Z" fill="#1A1A1A" stroke="rgba(255,90,31,0.2)" stroke-width="1"/>
-                <rect x="48" y="40" width="24" height="24" rx="6" fill="url(#merchGrad)"/>
-                <text x="60" y="58" text-anchor="middle" fill="#FFF5F0" font-family="Quicksand,sans-serif" font-weight="700" font-size="14">J</text>
+                <image href="emblem_dark.svg" x="48" y="40" width="24" height="24" />
                 <defs><linearGradient id="merchGrad" x1="0" y1="0" x2="24" y2="24"><stop stop-color="#0E0E0E"/><stop offset="1" stop-color="#FF5A1F"/></linearGradient></defs>
               </svg>
             </div>
@@ -1119,8 +1145,7 @@
                 <div class="mobile-mock__notch"></div>
                 <div class="mobile-mock__screen">
                   <div class="mobile-screen-header">
-                    <div class="mobile-j">J</div>
-                    <span class="mobile-title">JARWIX</span>
+                    <img src="logo_for_dark_background.svg.svg" alt="Jarwix" style="height:14px; width:auto;" />
                   </div>
                   <div class="mobile-stat-row">
                     <div class="mobile-stat"><span class="mobile-stat-num">↑82%</span><span class="mobile-stat-label">Leads</span></div>
@@ -1145,8 +1170,7 @@
             <div class="invoice-mock">
               <div class="invoice-mock__header">
                 <div class="invoice-logo-row">
-                  <div class="invoice-j">J</div>
-                  <span>JARWIX</span>
+                  <img src="logo_for_white_background.svg" alt="Jarwix" style="height:18px; width:auto;" />
                 </div>
                 <div class="invoice-label">INVOICE</div>
               </div>
@@ -1175,7 +1199,7 @@
               <div class="proposal-mock__cover">
                 <div class="proposal-gradient-bg"></div>
                 <div class="proposal-cover-content">
-                  <div class="proposal-j">J</div>
+                  <img src="emblem_orange.svg" alt="Jarwix" style="width:32px; height:32px; object-fit:contain; margin-bottom:0.75rem;" />
                   <div class="proposal-title">GROWTH<br/>PROPOSAL</div>
                   <div class="proposal-client">For: [Client Name]</div>
                 </div>
@@ -1283,11 +1307,17 @@
             <i class="ri-image-line ri-icon ri-icon--lg ri-icon--gradient"></i>
           </div>
           <h4>Logo Package</h4>
-          <p>SVG vectors for dark, light & orange backgrounds. All formats included.</p>
-          <a href="logo_for_dark_background.svg.svg" download="jarwix-logo-dark.svg" class="download-btn">
-            <i class="ri-download-2-line" style="font-size:1rem;"></i>
-            Download SVGs
-          </a>
+          <p>SVG vectors for dark, light & orange backgrounds, plus standalone emblem marks.</p>
+          <div style="display:flex; gap:0.5rem; flex-wrap:wrap; margin-top:auto;">
+            <a href="logo_for_dark_background.svg.svg" download="jarwix-logo-dark.svg" class="download-btn" style="flex:1; min-width:110px; font-size:0.8rem; padding:10px 12px;">
+              <i class="ri-download-2-line" style="font-size:0.9rem;"></i>
+              Full Logos
+            </a>
+            <a href="emblem_dark.svg" download="jarwix-emblem.svg" class="download-btn" style="flex:1; min-width:110px; font-size:0.8rem; padding:10px 12px; background:rgba(255,245,240,0.06); border:1px solid rgba(255,245,240,0.15); color:#FFF5F0;">
+              <i class="ri-download-2-line" style="font-size:0.9rem;"></i>
+              Emblems
+            </a>
+          </div>
         </div>
         <div class="download-card reveal">
           <div class="download-card__icon">
@@ -1587,7 +1617,7 @@
           <div class="mode-card mode-card--dark">
             <div class="mode-card__preview">
               <div class="mode-preview-dark">
-                <div class="mode-nav-row"><div class="mode-j">J</div><div class="mode-nav-lines"><span></span><span></span><span></span></div></div>
+                <div class="mode-nav-row"><img src="emblem_dark.svg" alt="Jarwix" style="width:18px; height:18px; object-fit:contain;" /><div class="mode-nav-lines"><span></span><span></span><span></span></div></div>
                 <div class="mode-hero-text">DARK MODE</div>
                 <div class="mode-btn-demo"></div>
               </div>
@@ -1610,7 +1640,7 @@
           <div class="mode-card mode-card--light">
             <div class="mode-card__preview">
               <div class="mode-preview-light">
-                <div class="mode-nav-row"><div class="mode-j mode-j--light">J</div><div class="mode-nav-lines mode-nav-lines--light"><span></span><span></span><span></span></div></div>
+                <div class="mode-nav-row"><img src="emblem_white.svg" alt="Jarwix" style="width:18px; height:18px; object-fit:contain;" /><div class="mode-nav-lines mode-nav-lines--light"><span></span><span></span><span></span></div></div>
                 <div class="mode-hero-text mode-hero-text--light">LIGHT MODE</div>
                 <div class="mode-btn-demo mode-btn-demo--light"></div>
               </div>
@@ -1721,7 +1751,8 @@
       <div class="caption-block reveal">
         <h3 class="colour-block__title">Captions & Subtitles</h3>
         <div class="caption-demo-container">
-          <div class="caption-demo-video">
+          <div class="caption-demo-video" style="position:relative;">
+            <img src="emblem_dark.svg" alt="Jarwix" style="position:absolute; top:14px; left:16px; width:20px; height:20px; object-fit:contain; opacity:0.85;" />
             <div class="caption-demo-bar">
               <span class="caption-demo-text">Every <span style="color:#FF5A1F; font-weight:700;">business</span> deserves a growth engine.</span>
             </div>
@@ -1776,8 +1807,7 @@
         <div class="email-mock">
           <div class="email-mock__header">
             <div class="email-mock__logo-row">
-              <div class="email-mock__j">J</div>
-              <span>JARWIX</span>
+              <img src="logo_for_dark_background.svg.svg" alt="Jarwix" style="height:22px; width:auto;" />
             </div>
             <div class="email-mock__top-divider"></div>
           </div>
@@ -1846,7 +1876,7 @@
       <div class="cobrand-do-dont reveal">
         <div class="cobrand-example cobrand-example--do">
           <div class="cobrand-logos-demo">
-            <div class="cobrand-logo-j">J</div>
+            <img src="emblem_dark.svg" alt="Jarwix" class="cobrand-logo-j-img" style="width:44px; height:44px; object-fit:contain;" />
             <span class="cobrand-x">×</span>
             <div class="cobrand-logo-partner">P</div>
           </div>
@@ -1854,7 +1884,7 @@
         </div>
         <div class="cobrand-example cobrand-example--dont">
           <div class="cobrand-logos-demo cobrand-logos-demo--wrong">
-            <div class="cobrand-logo-j cobrand-logo-j--small">J</div>
+            <img src="emblem_dark.svg" alt="Jarwix" style="width:24px; height:24px; object-fit:contain;" />
             <div class="cobrand-logo-partner cobrand-logo-partner--large">P</div>
           </div>
           <span class="voice-badge voice-badge--dont">✗ Wrong — Never make Jarwix smaller than a partner</span>
@@ -2234,11 +2264,11 @@
       <div class="favicon-block reveal">
         <h3 class="colour-block__title">Favicon & App Icon Package</h3>
         <div class="favicon-grid">
-          <div class="favicon-item"><div class="favicon-demo" style="width:16px; height:16px; font-size:8px;">J</div><span>16×16</span><code>favicon.ico</code></div>
-          <div class="favicon-item"><div class="favicon-demo" style="width:32px; height:32px; font-size:16px;">J</div><span>32×32</span><code>favicon.png</code></div>
-          <div class="favicon-item"><div class="favicon-demo" style="width:48px; height:48px; font-size:22px;">J</div><span>48×48</span><code>icon.png</code></div>
-          <div class="favicon-item"><div class="favicon-demo" style="width:72px; height:72px; font-size:32px; border-radius:16px;">J</div><span>180×180</span><code>apple-touch</code></div>
-          <div class="favicon-item"><div class="favicon-demo" style="width:80px; height:80px; font-size:36px; border-radius:20px;">J</div><span>512×512</span><code>PWA icon</code></div>
+          <div class="favicon-item"><div class="favicon-demo" style="width:16px; height:16px; display:flex; align-items:center; justify-content:center;"><img src="emblem_dark.svg" style="width:10px; height:10px; object-fit:contain;" /></div><span>16×16</span><code>favicon.ico</code></div>
+          <div class="favicon-item"><div class="favicon-demo" style="width:32px; height:32px; display:flex; align-items:center; justify-content:center;"><img src="emblem_dark.svg" style="width:20px; height:20px; object-fit:contain;" /></div><span>32×32</span><code>favicon.png</code></div>
+          <div class="favicon-item"><div class="favicon-demo" style="width:48px; height:48px; display:flex; align-items:center; justify-content:center;"><img src="emblem_dark.svg" style="width:30px; height:30px; object-fit:contain;" /></div><span>48×48</span><code>icon.png</code></div>
+          <div class="favicon-item"><div class="favicon-demo" style="width:72px; height:72px; border-radius:16px; display:flex; align-items:center; justify-content:center;"><img src="emblem_dark.svg" style="width:46px; height:46px; object-fit:contain;" /></div><span>180×180</span><code>apple-touch</code></div>
+          <div class="favicon-item"><div class="favicon-demo" style="width:80px; height:80px; border-radius:20px; display:flex; align-items:center; justify-content:center;"><img src="emblem_dark.svg" style="width:52px; height:52px; object-fit:contain;" /></div><span>512×512</span><code>PWA icon</code></div>
         </div>
         <div class="favicon-rules">
           <p>All icons use the brand gradient on a square canvas. Radius = 20% of canvas size. Never use the wordmark — icon only at small sizes.</p>
@@ -2253,7 +2283,7 @@
             <div class="og-preview">
               <div class="og-preview__bg"></div>
               <div class="og-preview__content">
-                <div class="og-preview__logo">J · JARWIX</div>
+                <div class="og-preview__logo"><img src="logo_for_dark_background.svg.svg" alt="Jarwix" style="height:15px; width:auto;" /></div>
                 <h4 class="og-preview__title">Elevate with AI.</h4>
                 <p class="og-preview__desc">AI-powered marketing for ambitious businesses.</p>
               </div>
@@ -2268,7 +2298,7 @@
             <div class="og-preview og-preview--square">
               <div class="og-preview__bg"></div>
               <div class="og-preview__content">
-                <div class="og-preview__logo">J · JARWIX</div>
+                <div class="og-preview__logo"><img src="logo_for_dark_background.svg.svg" alt="Jarwix" style="height:15px; width:auto;" /></div>
                 <h4 class="og-preview__title">Growth Engine.</h4>
               </div>
             </div>
@@ -2498,8 +2528,9 @@
         <h3 class="colour-block__title" style="color:#FFF5F0;">Video Thumbnail Template</h3>
         <div class="thumbnail-demos">
           <div class="thumbnail-demo">
-            <div class="thumbnail-preview">
+            <div class="thumbnail-preview" style="position:relative;">
               <div class="thumb-bg"></div>
+              <img src="emblem_dark.svg" alt="Jarwix" style="position:absolute; top:12px; left:12px; width:18px; height:18px; object-fit:contain; z-index:2;" />
               <div class="thumb-content">
                 <div class="thumb-label">WATCH THIS</div>
                 <div class="thumb-title">3 AI TOOLS<br/>THAT REPLACED<br/>AN AGENCY</div>
@@ -2509,8 +2540,9 @@
             <p>YouTube / Long-form: 1280×720px · Dark bg · Gradient text headline · Handle bottom-right</p>
           </div>
           <div class="thumbnail-demo">
-            <div class="thumbnail-preview thumbnail-preview--short">
+            <div class="thumbnail-preview thumbnail-preview--short" style="position:relative;">
               <div class="thumb-bg"></div>
+              <img src="emblem_dark.svg" alt="Jarwix" style="position:absolute; top:12px; left:12px; width:16px; height:16px; object-fit:contain; z-index:2;" />
               <div class="thumb-content">
                 <div class="thumb-title" style="font-size:0.6rem;">STOP WASTING<br/>AD BUDGET.</div>
                 <div class="thumb-handle">@jarwix</div>
@@ -2529,7 +2561,7 @@
       <div class="touchpoint-block reveal">
         <h3 class="colour-block__title" style="color:#FFF5F0;">Pitch Deck Layout System</h3>
         <div class="deck-slides">
-          <div class="deck-slide deck-slide--cover"><div class="deck-slide__j">J</div><div class="deck-slide__title">GROWTH<br/>ENGINE</div><div class="deck-slide__label">COVER</div></div>
+          <div class="deck-slide deck-slide--cover"><img src="emblem_dark.svg" alt="Jarwix" style="width:20px; height:20px; object-fit:contain; margin-bottom:0.4rem;" /><div class="deck-slide__title">GROWTH<br/>ENGINE</div><div class="deck-slide__label">COVER</div></div>
           <div class="deck-slide"><div class="deck-slide__num">01</div><div class="deck-slide__content"><div class="deck-line"></div><div class="deck-line deck-line--short"></div></div><div class="deck-slide__label">PROBLEM</div></div>
           <div class="deck-slide"><div class="deck-slide__num">02</div><div class="deck-slide__content"><div class="deck-line"></div><div class="deck-line"></div><div class="deck-line deck-line--short"></div></div><div class="deck-slide__label">SOLUTION</div></div>
           <div class="deck-slide"><div class="deck-slide__num">03</div><div class="deck-slide__content deck-slide__stat">↑243%</div><div class="deck-slide__label">RESULTS</div></div>
@@ -2550,8 +2582,7 @@
           <div class="signage-card">
             <div class="signage-preview signage-preview--banner">
               <div class="signage-banner-content">
-                <div class="signage-j">J</div>
-                <div class="signage-wordmark">JARWIX</div>
+                <img src="logo_for_dark_background.svg.svg" alt="Jarwix" style="width:82%; height:auto; margin-bottom:0.75rem;" />
                 <div class="signage-tagline">Elevate with AI.</div>
               </div>
             </div>
@@ -2565,6 +2596,10 @@
           <div class="signage-card">
             <div class="signage-preview signage-preview--billboard">
               <div class="signage-bb-content">
+                <div style="display:flex; justify-content:space-between; align-items:center; width:100%; margin-bottom:0.35rem;">
+                  <img src="logo_for_dark_background.svg.svg" alt="Jarwix" style="height:12px; width:auto;" />
+                  <span style="font-size:0.55rem; color:var(--c-orange); letter-spacing:0.1em; font-weight:700;">AI MARKETING</span>
+                </div>
                 <div class="signage-bb-headline">STOP GUESSING.<br/>START ELEVATING.</div>
                 <div class="signage-bb-handle">jarwix.com</div>
               </div>
